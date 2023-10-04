@@ -6,7 +6,7 @@ contentType="text/html" pageEncoding="UTF-8"%>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Laptop Shop - Đăng nhập</title>
+    <title>ElecShop - Đăng nhập</title>
     <link rel="stylesheet" href="Frontend/css/login.css" />
     <link
       rel="stylesheet"
@@ -134,7 +134,7 @@ contentType="text/html" pageEncoding="UTF-8"%>
       <!-- copyright -->
       <div class="colorlibcopy-agile">
         <p>
-          © 2023 All rights reserved | Design by Nguyen Manh Toan - Hanoi
+          © 2023 All rights reserved | Design by Vu Thai Tuan- Hanoi
           University of Industry
         </p>
       </div>

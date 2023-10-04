@@ -32,7 +32,7 @@
 							<p class="product-description">RAM: ${sp.getRam()}</p>
 						</c:if>
 						<c:if test = "${sp.getThietKe().length() > 0}">
-						<p class="product-description">Thiết kế: ${sp.getThietKe()}</p>
+						<p class="product-description">GPU: ${sp.getThietKe()}</p>
 						</c:if>
 						<c:if test = "${sp.getHeDieuHanh().length() > 0}">
 							<p class="product-description">Hệ điều hành: ${sp.getHeDieuHanh()}</p>

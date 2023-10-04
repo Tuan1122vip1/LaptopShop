@@ -17,12 +17,13 @@ p.cart_masanpham span {
 
 
 input.input_num_cart {
-  width: 36px;
-  padding: 3px;
+  width: 65px;
+  padding: 10px;
   text-align: center;
   margin: auto;
   display: block;
   border: solid 1px #ccc;
+  border-radius: 15px;
   font-size: 14px;
 }
 

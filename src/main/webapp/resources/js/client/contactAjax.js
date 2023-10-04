@@ -28,7 +28,7 @@ function sendContact()
 			contentType : "application/json",
 			url: "http://localhost:8080/laptopshop/createContact",
 			success: function(result){
-				alert("Cảm ơn quý khách đã liên hệ với chúng tôi. Laptop shop sẽ phản hồi sớm cho các bạn");
+				alert("Cảm ơn quý khách đã liên hệ với chúng tôi. ElecShopsẽ phản hồi sớm cho các bạn");
 				window.location.href = "/laptopshop/contact";
 			},
 			error : function(e){

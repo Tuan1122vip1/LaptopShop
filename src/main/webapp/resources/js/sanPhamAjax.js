@@ -380,7 +380,7 @@ $(document).ready(function() {
 			if(checkTenDanhMuc != -1){
 			  $('.cpu').html("<span style='font-weight: bold'>CPU: </span>"+ sanPham.cpu);
 			  $('.ram').html("<span style='font-weight: bold'>RAM: </span>"+ sanPham.ram);
-			  $('.thietKe').html("<span style='font-weight: bold'>Thiết kế: </span>"+ sanPham.thietKe);
+			  $('.thietKe').html("<span style='font-weight: bold'>GPU: </span>"+ sanPham.thietKe);
 			  $('.dungLuongPin').html("<span style='font-weight: bold'>Dung lượng pin: </span>"+ sanPham.dungLuongPin);
 			  $('.heDieuHanh').html("<span style='font-weight: bold'>Hệ điều hành: </span>"+ sanPham.heDieuHanh);
 			  $('.manHinh').html("<span style='font-weight: bold'>Màn hình: </span>"+ sanPham.manHinh);

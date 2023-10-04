@@ -21,15 +21,15 @@
 		    		<div class="section group">
 				<div class="grid_1_of_3 images_1_of_3">
 					  <a href="single.html"><img src="Frontend/img/msi.jpg"></a>
-					  <h3>Thương hiệu PC nổi bật </h3>
+					  <h3>Sản phẩm mới</h3>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 ">
 					   <a href="single.html"><img src="Frontend/img/Rgaming.jpg" style="background-color: white"></a>
-					  <h3 >Thương hiệu Laptop Gaming mới</h3>
+					  <h3 >Sản phẩm bán chạy</h3>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 ">
 					   <a href="single.html"><img src="Frontend/img/arn.jpg" style="background-color: white"></a>
-					  <h3>Thương hiệu laptop mới</h3>
+					  <h3>Thương hiệu nổi bật</h3>
 				</div>
 			</div>
 		    	</div>

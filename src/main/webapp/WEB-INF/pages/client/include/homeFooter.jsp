@@ -31,7 +31,7 @@
 		<div class="clear"> </div>
 		<div class="wrap">
 		<div class="copy-right">
-			<p>&copy; 2023 All rights reserved | Design by Nguyen Manh Toan - Hanoi
+			<p>&copy; 2023 All rights reserved | Design by Vu Thai Tuan- Hanoi
           University of Industry </p>
 		</div>
 		</div>

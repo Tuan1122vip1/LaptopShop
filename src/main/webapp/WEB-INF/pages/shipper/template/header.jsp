@@ -28,7 +28,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<c:url value='/shipper'/>">Laptop Shop - Trang Shipper</a>
+        <a class="navbar-brand" href="<c:url value='/shipper'/>">ElecShop - Trang Shipper</a>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">

@@ -97,16 +97,18 @@ public class SanPhamApi {
 			errors = null;
 		} else {
 			// lưu sản phẩm
-			int checkId = Integer.parseInt(newSanPhamDto.getId());
-			String checkSp = sanPhamService.getSanPhamById(checkId).getTenSanPham();
-			if(checkSp != null) {
-				int dvKho = Integer.parseInt(newSanPhamDto.getDonViKho())
-						+ sanPhamService.getSanPhamById(checkId).getDonViKho();
-				newSanPhamDto.setDonViKho(""+dvKho);
-				SanPham sp = sanPhamService.save(newSanPhamDto);
-				ro.setData(sp);
-				saveImageForProduct(sp, newSanPhamDto, request);
-				ro.setStatus("success");
+			if(!newSanPhamDto.getId().equals("")) {			
+				int checkId = Integer.parseInt(newSanPhamDto.getId());
+				String checkSp = sanPhamService.getSanPhamById(checkId).getTenSanPham();
+				if(checkSp != null) {
+					int dvKho = Integer.parseInt(newSanPhamDto.getDonViKho())
+							+ sanPhamService.getSanPhamById(checkId).getDonViKho();
+					newSanPhamDto.setDonViKho(""+dvKho);
+					SanPham sp = sanPhamService.save(newSanPhamDto);
+					ro.setData(sp);
+					saveImageForProduct(sp, newSanPhamDto, request);
+					ro.setStatus("success");
+				}
 			}
 			else {
 				SanPham sp = sanPhamService.save(newSanPhamDto);

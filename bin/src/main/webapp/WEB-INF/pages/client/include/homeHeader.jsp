@@ -104,7 +104,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
         <div class="logo">
           <a href="<%=request.getContextPath()%>/"
             ><img
-              src="Frontend/img/Laptop_logo.png"
+              src="Frontend/img/Laptop_logo.jpeg"
               width="180px"
               height="40px"
               title="logo"

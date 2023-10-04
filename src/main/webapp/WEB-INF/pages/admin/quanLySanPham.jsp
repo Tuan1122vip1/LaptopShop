@@ -173,7 +173,7 @@
 										class="form-control" name="cpu">
 								</div>
 								<div class="form-group col-md-4">
-									<label for="inputPassword4">Thiết kế</label> <input type="text"
+									<label for="inputPassword4">GPU</label> <input type="text"
 										class="form-control" name="thietKe" required="required">
 								</div>
 							</div>

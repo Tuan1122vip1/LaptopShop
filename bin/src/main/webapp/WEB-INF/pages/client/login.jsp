@@ -6,7 +6,7 @@ contentType="text/html" pageEncoding="UTF-8"%>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Laptop Shop - Đăng nhập</title>
+    <title>ElecShop - Đăng nhập</title>
     <link rel="stylesheet" href="Frontend/css/login.css" />
     <link
       rel="stylesheet"
@@ -21,7 +21,7 @@ contentType="text/html" pageEncoding="UTF-8"%>
     <div class="login-page">
       <div class="form">
         <h2 class="form-signin-heading" style="text-align: center">
-          LaptopShop - Đăng nhập
+          ElecShop - Đăng nhập
         </h2>
         <hr />
         <c:if test="${param.error != null}">
